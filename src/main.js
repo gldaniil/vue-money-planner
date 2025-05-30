@@ -1,4 +1,5 @@
 import './assets/fonts.css';
+import './assets/icons.css';
 import './assets/main.css';
 
 import { createPinia } from 'pinia';
