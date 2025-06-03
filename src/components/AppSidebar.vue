@@ -1,9 +1,11 @@
-<script setup></script>
+<script setup>
+import TheNavigation from './TheNavigation.vue';
+</script>
 
 <template>
   <aside
-    class="max-w-1/7 w-full max-h-60 h-full rounded-4xl px-6 py-4 self-start bg-white shadow-(--app-shadow) overflow-auto"
+    class="rounded-4xl px-3 py-5 shrink-0 self-start bg-white shadow-(--app-shadow) overflow-y-auto overflow-x-hidden"
   >
-    Lorem, ipsum.
+    <TheNavigation />
   </aside>
 </template>
