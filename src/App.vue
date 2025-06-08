@@ -1,6 +1,6 @@
 <script setup>
-import AppContent from './components/AppContent.vue';
-import AppSidebar from './components/AppSidebar.vue';
+import AppContent from './components/layout/AppContent.vue';
+import AppSidebar from './components/layout/AppSidebar.vue';
 </script>
 
 <template>
